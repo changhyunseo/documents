@@ -1,0 +1,10 @@
+// [ ./svelte/10/tutorial/12-actions/01-actions/app-a/click_outside.js ]
+export function clickOutside(node) {
+	// setup work goes here...
+
+	return {
+		destroy() {
+			// ...cleanup goes here
+		}
+	};
+}

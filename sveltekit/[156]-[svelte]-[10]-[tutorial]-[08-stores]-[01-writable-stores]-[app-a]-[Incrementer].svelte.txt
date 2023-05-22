@@ -1,0 +1,12 @@
+<!-- [ ./svelte/10/tutorial/08-stores/01-writable-stores/app-a/Incrementer.svelte ] -->
+<script>
+	import { count } from './stores.js';
+
+	function increment() {
+		// TODO increment the count
+	}
+</script>
+
+<button on:click={increment}>
+	+
+</button>

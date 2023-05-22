@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/06-bindings/14-component-this/app-a/App.svelte ] -->
+<script>
+	import InputField from './InputField.svelte';
+</script>
+
+<InputField />

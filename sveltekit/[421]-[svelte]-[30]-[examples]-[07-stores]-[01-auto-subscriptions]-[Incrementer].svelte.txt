@@ -1,0 +1,12 @@
+<!-- [ ./svelte/30/examples/07-stores/01-auto-subscriptions/Incrementer.svelte ] -->
+<script>
+	import { count } from './stores.js';
+
+	function increment() {
+		count.update(n => n + 1);
+	}
+</script>
+
+<button on:click={increment}>
+	+
+</button>

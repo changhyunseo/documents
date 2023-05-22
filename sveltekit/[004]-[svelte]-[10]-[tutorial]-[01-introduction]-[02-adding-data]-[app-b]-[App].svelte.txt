@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/02-adding-data/app-b/App.svelte ] -->
+<script>
+	let name = 'world';
+</script>
+
+<h1>Hello {name.toUpperCase()}!</h1>

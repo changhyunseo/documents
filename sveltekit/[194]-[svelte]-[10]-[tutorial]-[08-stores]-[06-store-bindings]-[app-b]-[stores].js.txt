@@ -1,0 +1,9 @@
+// [ ./svelte/10/tutorial/08-stores/06-store-bindings/app-b/stores.js ]
+import { writable, derived } from 'svelte/store';
+
+export const name = writable('world');
+
+export const greeting = derived(
+	name,
+	$name => `Hello ${$name}!`
+);

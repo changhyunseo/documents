@@ -1,0 +1,10 @@
+<!-- [ ./svelte/30/examples/00-introduction/02-styling/App.svelte ] -->
+<p>Styled!</p>
+
+<style>
+	p {
+		color: purple;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
+</style>

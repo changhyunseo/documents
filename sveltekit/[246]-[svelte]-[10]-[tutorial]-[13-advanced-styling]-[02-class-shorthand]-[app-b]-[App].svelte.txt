@@ -1,0 +1,19 @@
+<!-- [ ./svelte/10/tutorial/13-advanced-styling/02-class-shorthand/app-b/App.svelte ] -->
+<script>
+	let big = false;
+</script>
+
+<label>
+	<input type=checkbox bind:checked={big}>
+	big
+</label>
+
+<div class:big>
+	some {big ? 'big' : 'small'} text
+</div>
+
+<style>
+	.big {
+		font-size: 4em;
+	}
+</style>

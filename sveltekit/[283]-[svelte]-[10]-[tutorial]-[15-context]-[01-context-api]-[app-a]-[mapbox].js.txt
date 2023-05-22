@@ -1,0 +1,9 @@
+// [ ./svelte/10/tutorial/15-context/01-context-api/app-a/mapbox.js ]
+import mapbox from 'mapbox-gl';
+
+// https://docs.mapbox.com/help/glossary/access-token/
+mapbox.accessToken = MAPBOX_ACCESS_TOKEN;
+
+const key = Symbol();
+
+export { mapbox, key };

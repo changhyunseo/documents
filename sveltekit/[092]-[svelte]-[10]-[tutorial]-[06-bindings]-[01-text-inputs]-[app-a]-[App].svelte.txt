@@ -1,0 +1,8 @@
+<!-- [ ./svelte/10/tutorial/06-bindings/01-text-inputs/app-a/App.svelte ] -->
+<script>
+	let name = 'world';
+</script>
+
+<input value={name}>
+
+<h1>Hello {name}!</h1>

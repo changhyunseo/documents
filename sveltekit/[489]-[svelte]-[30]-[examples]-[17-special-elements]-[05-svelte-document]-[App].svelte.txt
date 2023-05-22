@@ -1,0 +1,11 @@
+<!-- [ ./svelte/30/examples/17-special-elements/05-svelte-document/App.svelte ] -->
+<script>
+	let selection = '';
+
+	const handleSelectionChange = (e) => selection = document.getSelection();
+</script>
+
+<svelte:document on:selectionchange={handleSelectionChange} />
+
+<p>Select this text to fire events</p>
+<p>Selection: {selection}</p>

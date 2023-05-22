@@ -1,0 +1,10 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/04-styling/app-b/App.svelte ] -->
+<p>This is a paragraph.</p>
+
+<style>
+	p {
+		color: purple;
+		font-family: 'Comic Sans MS', cursive;
+		font-size: 2em;
+	}
+</style>

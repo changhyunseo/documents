@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/03-props/02-default-values/app-a/Nested.svelte ] -->
+<script>
+	export let answer;
+</script>
+
+<p>The answer is {answer}</p>

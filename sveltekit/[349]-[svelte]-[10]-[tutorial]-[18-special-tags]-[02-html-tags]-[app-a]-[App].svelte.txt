@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/18-special-tags/02-html-tags/app-a/App.svelte ] -->
+<script>
+	let string = `this string contains some <strong>HTML!!!</strong>`;
+</script>
+
+<p>{string}</p>

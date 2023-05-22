@@ -1,0 +1,6 @@
+<!-- [ ./svelte/30/examples/00-introduction/00-hello-world/App.svelte ] -->
+<script>
+	let name = 'world';
+</script>
+
+<h1>Hello {name}!</h1>

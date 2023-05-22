@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/04-styling/app-a/App.svelte ] -->
+<p>This is a paragraph.</p>
+
+<style>
+	/* Write your CSS here */
+</style>

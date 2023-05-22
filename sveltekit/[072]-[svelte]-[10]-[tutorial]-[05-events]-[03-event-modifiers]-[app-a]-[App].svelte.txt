@@ -1,0 +1,10 @@
+<!-- [ ./svelte/10/tutorial/05-events/03-event-modifiers/app-a/App.svelte ] -->
+<script>
+	function handleClick() {
+		alert('clicked')
+	}
+</script>
+
+<button on:click={handleClick}>
+	Click me
+</button>

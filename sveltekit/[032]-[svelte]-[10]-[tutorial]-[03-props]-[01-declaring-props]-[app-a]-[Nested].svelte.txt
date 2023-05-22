@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/03-props/01-declaring-props/app-a/Nested.svelte ] -->
+<script>
+	let answer;
+</script>
+
+<p>The answer is {answer}</p>

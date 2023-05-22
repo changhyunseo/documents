@@ -1,0 +1,11 @@
+<!-- [ ./svelte/10/tutorial/08-stores/06-store-bindings/app-b/App.svelte ] -->
+<script>
+	import { name, greeting } from './stores.js';
+</script>
+
+<h1>{$greeting}</h1>
+<input bind:value={$name}>
+
+<button on:click="{() => $name += '!'}">
+	Add exclamation mark!
+</button>

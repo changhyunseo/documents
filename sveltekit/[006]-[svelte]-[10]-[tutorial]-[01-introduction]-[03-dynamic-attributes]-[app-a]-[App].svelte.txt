@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/03-dynamic-attributes/app-a/App.svelte ] -->
+<script>
+	let src = '/tutorial/image.gif';
+</script>
+
+<img>

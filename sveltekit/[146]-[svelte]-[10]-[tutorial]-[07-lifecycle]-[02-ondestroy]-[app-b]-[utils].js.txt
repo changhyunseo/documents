@@ -1,0 +1,10 @@
+// [ ./svelte/10/tutorial/07-lifecycle/02-ondestroy/app-b/utils.js ]
+import { onDestroy } from 'svelte';
+
+export function onInterval(callback, milliseconds) {
+	const interval = setInterval(callback, milliseconds);
+
+	onDestroy(() => {
+		clearInterval(interval);
+	});
+}

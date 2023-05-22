@@ -1,0 +1,6 @@
+<!-- [ ./svelte/30/examples/02-props/00-declaring-props/App.svelte ] -->
+<script>
+	import Nested from './Nested.svelte';
+</script>
+
+<Nested answer={42}/>

@@ -1,0 +1,8 @@
+// [ ./svelte/10/tutorial/08-stores/03-readable-stores/app-a/stores.js ]
+import { readable } from 'svelte/store';
+
+export const time = readable(null, function start(set) {
+	// implementation goes here
+
+	return function stop() {};
+});

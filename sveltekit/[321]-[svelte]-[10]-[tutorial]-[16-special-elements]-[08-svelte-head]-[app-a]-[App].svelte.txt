@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/16-special-elements/08-svelte-head/app-a/App.svelte ] -->
+<svelte:head>
+	<!-- elements go here -->
+</svelte:head>
+
+<h1>Hello world!</h1>

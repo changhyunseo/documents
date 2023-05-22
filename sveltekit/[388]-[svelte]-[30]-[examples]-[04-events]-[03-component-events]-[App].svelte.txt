@@ -1,0 +1,10 @@
+<!-- [ ./svelte/30/examples/04-events/03-component-events/App.svelte ] -->
+<script>
+	import Inner from './Inner.svelte';
+
+	function handleMessage(event) {
+		alert(event.detail.text);
+	}
+</script>
+
+<Inner on:message={handleMessage}/>

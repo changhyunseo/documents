@@ -1,0 +1,2 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/02-adding-data/app-a/App.svelte ] -->
+<h1>Hello world!</h1>

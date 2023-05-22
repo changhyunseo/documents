@@ -1,0 +1,8 @@
+<!-- [ ./svelte/10/tutorial/16-special-elements/02-svelte-component/app-a/BlueThing.svelte ] -->
+<strong>Blue thing</strong>
+
+<style>
+	strong {
+		color: blue;
+	}
+</style>

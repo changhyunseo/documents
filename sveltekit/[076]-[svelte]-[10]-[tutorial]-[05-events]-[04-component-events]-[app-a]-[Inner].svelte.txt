@@ -1,0 +1,12 @@
+<!-- [ ./svelte/10/tutorial/05-events/04-component-events/app-a/Inner.svelte ] -->
+<script>
+	// setup code goes here
+
+	function sayHello() {
+
+	}
+</script>
+
+<button on:click={sayHello}>
+	Click to say hello
+</button>

@@ -1,0 +1,2 @@
+<!-- [ ./svelte/30/examples/00-introduction/03-nested-components/Nested.svelte ] -->
+<p>...don't affect this element</p>

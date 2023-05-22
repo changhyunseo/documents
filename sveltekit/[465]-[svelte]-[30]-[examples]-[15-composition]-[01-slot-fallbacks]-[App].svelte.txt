@@ -1,0 +1,11 @@
+<!-- [ ./svelte/30/examples/15-composition/01-slot-fallbacks/App.svelte ] -->
+<script>
+	import Box from './Box.svelte';
+</script>
+
+<Box>
+	<h2>Hello!</h2>
+	<p>This is a box. It can contain anything.</p>
+</Box>
+
+<Box/>

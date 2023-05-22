@@ -1,0 +1,16 @@
+<!-- [ ./svelte/30/examples/04-events/04-event-forwarding/Inner.svelte ] -->
+<script>
+	import { createEventDispatcher } from 'svelte';
+
+	const dispatch = createEventDispatcher();
+
+	function sayHello() {
+		dispatch('message', {
+			text: 'Hello!'
+		});
+	}
+</script>
+
+<button on:click={sayHello}>
+	Click to say hello
+</button>

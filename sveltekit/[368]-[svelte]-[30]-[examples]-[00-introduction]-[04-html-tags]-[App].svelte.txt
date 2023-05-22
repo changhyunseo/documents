@@ -1,0 +1,6 @@
+<!-- [ ./svelte/30/examples/00-introduction/04-html-tags/App.svelte ] -->
+<script>
+	let string = `here's some <strong>HTML!!!</strong>`;
+</script>
+
+<p>{@html string}</p>

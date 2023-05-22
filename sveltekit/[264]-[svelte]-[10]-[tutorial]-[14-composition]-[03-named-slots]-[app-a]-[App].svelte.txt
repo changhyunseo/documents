@@ -1,0 +1,8 @@
+<!-- [ ./svelte/10/tutorial/14-composition/03-named-slots/app-a/App.svelte ] -->
+<script>
+	import ContactCard from './ContactCard.svelte';
+</script>
+
+<ContactCard>
+	<!-- contact details go here -->
+</ContactCard>

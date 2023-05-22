@@ -1,0 +1,12 @@
+<!-- [ ./svelte/10/tutorial/02-reactivity/01-reactive-assignments/app-a/App.svelte ] -->
+<script>
+	let count = 0;
+
+	function incrementCount() {
+		// event handler code goes here
+	}
+</script>
+
+<button>
+	Clicked {count} {count === 1 ? 'time' : 'times'}
+</button>

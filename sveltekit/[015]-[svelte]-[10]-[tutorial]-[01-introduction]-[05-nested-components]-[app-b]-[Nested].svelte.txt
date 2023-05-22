@@ -1,0 +1,2 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/05-nested-components/app-b/Nested.svelte ] -->
+<p>This is another paragraph.</p>

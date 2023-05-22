@@ -1,0 +1,15 @@
+// [ ./svelte/10/tutorial/08-stores/05-custom-stores/app-a/stores.js ]
+import { writable } from 'svelte/store';
+
+function createCount() {
+	const { subscribe, set, update } = writable(0);
+
+	return {
+		subscribe,
+		increment: () => {},
+		decrement: () => {},
+		reset: () => {}
+	};
+}
+
+export const count = createCount();

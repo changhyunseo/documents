@@ -1,0 +1,11 @@
+<!-- [ ./svelte/10/tutorial/16-special-elements/10-svelte-fragment/app-b/App.svelte ] -->
+<script>
+	import Box from './Box.svelte'
+</script>
+
+<Box>
+	<svelte:fragment slot="footer">
+		<p>All rights reserved.</p>
+		<p>Copyright (c) 2019 Svelte Industries</p>
+	</svelte:fragment>
+</Box>

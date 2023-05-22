@@ -1,0 +1,8 @@
+<!-- [ ./svelte/30/examples/17-special-elements/01-svelte-component/GreenThing.svelte ] -->
+<strong>Green thing</strong>
+
+<style>
+	strong {
+		color: green;
+	}
+</style>

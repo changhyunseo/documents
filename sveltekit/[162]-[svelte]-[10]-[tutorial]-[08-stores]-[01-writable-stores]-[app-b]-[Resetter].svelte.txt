@@ -1,0 +1,12 @@
+<!-- [ ./svelte/10/tutorial/08-stores/01-writable-stores/app-b/Resetter.svelte ] -->
+<script>
+	import { count } from './stores.js';
+
+	function reset() {
+		count.set(0);
+	}
+</script>
+
+<button on:click={reset}>
+	reset
+</button>

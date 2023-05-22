@@ -1,0 +1,4 @@
+// [ ./svelte/30/examples/07-stores/00-writable-stores/stores.js ]
+import { writable } from 'svelte/store';
+
+export const count = writable(0);

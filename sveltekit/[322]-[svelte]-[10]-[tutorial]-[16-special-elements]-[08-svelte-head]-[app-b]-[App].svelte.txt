@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/16-special-elements/08-svelte-head/app-b/App.svelte ] -->
+<svelte:head>
+	<link rel="stylesheet" href="/tutorial/dark-theme.css">
+</svelte:head>
+
+<h1>Hello world!</h1>

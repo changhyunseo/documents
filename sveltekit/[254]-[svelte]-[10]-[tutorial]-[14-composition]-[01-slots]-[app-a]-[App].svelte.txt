@@ -1,0 +1,8 @@
+<!-- [ ./svelte/10/tutorial/14-composition/01-slots/app-a/App.svelte ] -->
+<script>
+	import Box from './Box.svelte';
+</script>
+
+<Box>
+	<!-- put content here -->
+</Box>

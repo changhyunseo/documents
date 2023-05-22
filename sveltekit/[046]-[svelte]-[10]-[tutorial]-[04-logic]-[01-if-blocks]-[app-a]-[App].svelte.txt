@@ -1,0 +1,16 @@
+<!-- [ ./svelte/10/tutorial/04-logic/01-if-blocks/app-a/App.svelte ] -->
+<script>
+	let user = { loggedIn: false };
+
+	function toggle() {
+		user.loggedIn = !user.loggedIn;
+	}
+</script>
+
+<button on:click={toggle}>
+	Log out
+</button>
+
+<button on:click={toggle}>
+	Log in
+</button>

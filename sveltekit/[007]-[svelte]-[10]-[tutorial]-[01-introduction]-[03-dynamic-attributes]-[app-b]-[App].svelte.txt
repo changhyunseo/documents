@@ -1,0 +1,7 @@
+<!-- [ ./svelte/10/tutorial/01-introduction/03-dynamic-attributes/app-b/App.svelte ] -->
+<script>
+	let src = '/tutorial/image.gif';
+	let name = 'Rick Astley';
+</script>
+
+<img {src} alt="{name} dances.">

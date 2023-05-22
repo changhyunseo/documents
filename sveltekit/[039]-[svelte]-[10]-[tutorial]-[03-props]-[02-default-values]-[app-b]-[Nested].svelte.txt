@@ -1,0 +1,6 @@
+<!-- [ ./svelte/10/tutorial/03-props/02-default-values/app-b/Nested.svelte ] -->
+<script>
+	export let answer = 'a mystery';
+</script>
+
+<p>The answer is {answer}</p>

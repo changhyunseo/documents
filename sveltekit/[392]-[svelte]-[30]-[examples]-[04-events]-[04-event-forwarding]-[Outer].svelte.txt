@@ -1,0 +1,6 @@
+<!-- [ ./svelte/30/examples/04-events/04-event-forwarding/Outer.svelte ] -->
+<script>
+	import Inner from './Inner.svelte';
+</script>
+
+<Inner on:message/>
